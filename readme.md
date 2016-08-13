@@ -19,4 +19,4 @@ Don't wanna use a package manager? Download geolize.css and include it in your H
 
 `<link rel="stylesheet" type="text/css" href="geolize.css">`
 
-We've included some image presets to make your site look even MORE awesome. If you want to use those too, make sure use bower.
+We've included some image presets to make your site look even MORE awesome. If you want to use those too, make sure to download the `img` folder too (or use Bower).
