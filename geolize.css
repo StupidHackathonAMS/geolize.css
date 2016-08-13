@@ -7,7 +7,7 @@ html {
 
 body {
   background-color: pink;
-  background-image: url(img/background.gif);
+  background-image: url('../img/background.gif');
 }
 
 /* Sections */
@@ -23,6 +23,16 @@ figure {
   display: block;
 }
 
+blockquote {
+  background-color: white;
+  width: 50%;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+code, pre {
+  background-color: white;
+}
 /* Headings */
 h1,
 h2,
@@ -41,14 +51,6 @@ b, strong {
 
 i, em {
 
-}
-
-del {
-
-}
-
-mark {
-  
 }
 
 
