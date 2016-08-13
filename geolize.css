@@ -1,7 +1,7 @@
 /* Document-wide elements */
 
 html {
-  font-family: "Comic Sans", sans-serif;
+  font-family: "Times New Roman", serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -14,7 +14,11 @@ body {
 
 /* Headings */
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-
