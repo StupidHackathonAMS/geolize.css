@@ -1,19 +1,17 @@
 /* Document-wide elements */
-
 html {
-  font-family: "Times New Roman", serif;
-  line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-family: "Times New Roman", serif; // Change overall default font
+  line-height: 1.15; // Set line height
 }
 
 body {
-  background-color: pink;
-  margin: 0;
+  background-color: pink; // More pink is more better
+  background-image: url(img/background.gif); // More gifs are even more better
 }
 
-/* Headings */
+/* Sections */
 
+/* Headings */
 h1,
 h2,
 h3,
@@ -22,3 +20,7 @@ h5,
 h6 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+/* Links */
+
+/* Forms */
