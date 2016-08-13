@@ -8,11 +8,7 @@ html {
 
 body {
   background-color: pink;
-<<<<<<< HEAD
   background-image: url('img/main-background.gif');
-=======
-  background-image: url('/img/main-background.gif');
->>>>>>> b02c26b6a926eb490383cb4a5eee1a12f93eb7b3
 }
 
 /* =========== SECTIONS =========== */
@@ -59,11 +55,7 @@ main {
 /* Blockquote, code and pre */
 blockquote {
   background-color: AliceBlue;
-<<<<<<< HEAD
   background-image: url('img/quote-background.jpg');
-=======
-  background-image: url('/img/quote-background.jpg');
->>>>>>> b02c26b6a926eb490383cb4a5eee1a12f93eb7b3
   width: 50%;
   padding: 10px;
   border: 5px solid red;
@@ -71,11 +63,7 @@ blockquote {
 
 pre, xmp {
   background-color: CornflowerBlue;
-<<<<<<< HEAD
   background-image: url('img/code-background.gif');
-=======
-  background-image: url('/img/code-background.gif');
->>>>>>> b02c26b6a926eb490383cb4a5eee1a12f93eb7b3
   padding: 20px;
   border: 5px solid black;
   white-space: pre-wrap;       /* Since CSS 2.1 */
