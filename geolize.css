@@ -30,9 +30,10 @@ blockquote {
   border: 5px solid red;
 }
 
-code, pre {
+code, pre, xmp {
   background-color: white;
 }
+
 /* Headings */
 h1,
 h2,
@@ -46,14 +47,59 @@ h6 {
 
 /* Text */
 b, strong {
-
+  color: blue;
 }
 
 i, em {
-
+  color: blue;
 }
 
+/* Marquees (officially deprecated, but works in some browsers) */
+marquee {
+  font-size: 2em;
+  color: green;
+  line-height: 2em;
+}
 
+/* Marquees (CSS3 valid) */
+.marquee {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+
+.marquee h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: left;
+ -moz-animation: marquee 5s linear infinite alternate;
+ -webkit-animation: marquee 5s linear infinite alternate;
+ animation: marquee 5s linear infinite alternate;
+}
+
+@-moz-keyframes marquee {
+ 0%   { -moz-transform: translateX(70%); }
+ 100% { -moz-transform: translateX(0%); }
+}
+@-webkit-keyframes marquee {
+ 0%   { -webkit-transform: translateX(70%); }
+ 100% { -webkit-transform: translateX(0%); }
+}
+@keyframes marquee {
+ 0%   {
+ -moz-transform: translateX(70%);
+ -webkit-transform: translateX(70%);
+ transform: translateX(70%);
+ }
+ 100% {
+ -moz-transform: translateX(0%);
+ -webkit-transform: translateX(0%);
+ transform: translateX(0%);
+ }
+}
 /* Links */
 
 /* Forms */

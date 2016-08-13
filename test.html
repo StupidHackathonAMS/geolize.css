@@ -52,15 +52,31 @@
       <img src="../img/construction.gif" alt="construction" /><br />
       <img src="../img/tropical.gif" alt="tropical" /><br />
       <p> If you want to change the divider, edit this piece of CSS:</p>
+      <pre>
       <code>
-        hr {<br>
-          background:url('../img/image-you-want-to-use.gif');<br>
-          height: 1px;<br>
-          border: 0;<br>
-        }
-      </code>
+        hr {
+          background:url('../img/image-you-want-to-use.gif');
+          height: 1px;
+          border: 0;
+        }</code>
+      </pre>
+    </section>
+    <hr>
+    <section>
+      <h1>Marquees</h1>
+      <marquee> I'm a regular marquee </marquee>
 
-
+      <p> Unfortunately, "marquee" has been deprecated. If you want your HTML to be CSS 3 valid, you can use this alternative using @keyframes.</p>
+      <p>Use this div to insert a marquee:</p>
+      <pre>
+      <code>
+        &lt;div class="marquee"&gt;
+          &lt;h3> Your text&lt;/h3&gt;
+        &lt;/div&gt;</code>
+      </pre>
+      <div class="marquee">
+        <h3> Left to right, right to left </h3>
+      </div>
     </section>
 
   </main>
