@@ -113,3 +113,21 @@ hr {
   height: 1px;
   border: 0;
 }
+
+/* Buttons */
+
+button {
+  border: 6px ridge #bbb;
+  font-family: "Comic Sans MS", serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
+}
+
+button {
+  border: 6px ridge #bbb;
+  font-family: "Comic Sans MS", serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
+}
