@@ -8,7 +8,7 @@ html {
 
 body {
   background-color: pink;
-  background-image: url('../img/main-background.gif');
+  background-image: url('/img/main-background.gif');
 }
 
 /* =========== SECTIONS =========== */
@@ -55,7 +55,7 @@ main {
 /* Blockquote, code and pre */
 blockquote {
   background-color: AliceBlue;
-  background-image: url('../img/quote-background.jpg');
+  background-image: url('/img/quote-background.jpg');
   width: 50%;
   padding: 10px;
   border: 5px solid red;
@@ -63,7 +63,7 @@ blockquote {
 
 pre, xmp {
   background-color: CornflowerBlue;
-  background-image: url('../img/code-background.gif');
+  background-image: url('/img/code-background.gif');
   padding: 20px;
   border: 5px solid black;
   white-space: pre-wrap;       /* Since CSS 2.1 */
@@ -244,7 +244,7 @@ th, td {
 
 /* Horizontal Rule */
 hr {
-  background:url('../img/rainbow.gif');
+  background:url('/img/rainbow.gif');
   height: 1px;
   border: 0;
   background-color: Cyan;
