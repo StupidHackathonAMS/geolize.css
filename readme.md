@@ -1,5 +1,6 @@
-# Geolize.css #
+![under construction gif](https://www.heelzwaarleven.nl/underconstruction.gif)
 
+# Geolize.css #
 Geolize is a lightweight CSS reset that renders standard HTML and CSS elements like it's 1997.
 
 What does it do?
