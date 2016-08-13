@@ -1,0 +1,24 @@
+{
+  "name": "geolize.css",
+  "homepage": "https://github.com/StupidHackathonAMS/geolize.css",
+  "authors": [
+    "Nienke Dekker <nienkedekker@gmail.com>",
+    "Stephanie Nemeth <traumverloren@gmail.com>"
+  ],
+  "description": "Geocitify your webpage",
+  "main": "geolize.css",
+  "keywords": [
+    "css3",
+    "html5",
+    "geocities"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

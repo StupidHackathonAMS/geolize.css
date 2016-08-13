@@ -54,7 +54,7 @@ main {
 
 /* Blockquote, code and pre */
 blockquote {
-  background-color: white;
+  background-color: AliceBlue;
   background-image: url('../img/quote-background.jpg');
   width: 50%;
   padding: 10px;
@@ -62,7 +62,7 @@ blockquote {
 }
 
 pre, xmp {
-  background-color: white;
+  background-color: CornflowerBlue;
   background-image: url('../img/code-background.gif');
   padding: 20px;
   border: 5px solid black;
@@ -89,6 +89,10 @@ h6 {
   color: yellow;
 }
 
+h1 {
+  text-shadow: 2px 2px 8px red;
+}
+
 /* Bold, italic */
 b, strong {
   color: blue;
@@ -96,6 +100,17 @@ b, strong {
 
 i, em {
   color: blue;
+}
+
+/* Marked text */
+mark {
+background-color: yellow;
+color: red;
+}
+
+/* Small text */
+small {
+  font-size: 90%;
 }
 
 /* Links */
@@ -137,7 +152,7 @@ marquee {
  margin: 0;
  font-size: 2em;
  color: DarkViolet;
- font-family: "Times new roman", serif;
+ font-family: "Times New Roman", serif;
  line-height: 50px;
  text-align: left;
  -moz-animation: marquee 5s linear infinite alternate;
@@ -213,14 +228,12 @@ button {
   font-size: 16px;
 }
 
-/* New media elements */
-
 /* Tables */
 
 /* Horizontal Rule */
-
 hr {
   background:url('../img/rainbow.gif');
   height: 1px;
   border: 0;
+  background-color: Cyan;
 }
