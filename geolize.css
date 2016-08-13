@@ -1,7 +1,7 @@
-/* Document-wide elements */
+/* =========== DOCUMENT WIDE ELEMENTS =========== */
 html {
   font-family: "Times New Roman", serif;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1;
   color: black;
 }
@@ -11,7 +11,7 @@ body {
   background-image: url('../img/main-background.gif');
 }
 
-/* Sections */
+/* =========== SECTIONS =========== */
 /* These elements are new in HTML5. This makes sure they look okay in older browsers */
 header,
 section,
@@ -24,6 +24,35 @@ figure {
   display: block;
 }
 
+header {
+  background-color: purple;
+}
+
+nav {
+  background-color: LightGreen;
+}
+
+main {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* =========== STUPID MEDIA QUERIES =========== */
+/* Gotta look good on mobile too */
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  img {
+    width: 60%;
+  }
+}
+
+/* Blockquote, code and pre */
 blockquote {
   background-color: white;
   background-image: url('../img/quote-background.jpg');
@@ -36,12 +65,19 @@ pre, xmp {
   background-color: white;
   background-image: url('../img/code-background.gif');
   padding: 20px;
+  border: 5px solid black;
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 code {
   background-color: white;
 }
 
+/* =========== TEXT =========== */
 /* Headings */
 h1,
 h2,
@@ -53,13 +89,30 @@ h6 {
   color: yellow;
 }
 
-/* Text */
+/* Bold, italic */
 b, strong {
   color: blue;
 }
 
 i, em {
   color: blue;
+}
+
+/* Links */
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: Purple;
+}
+
+a:active {
+  color: Aqua;
+}
+
+a:hover {
+  color: Brown;
 }
 
 /* Marquees (officially deprecated, but works in some browsers) */
@@ -82,6 +135,9 @@ marquee {
  width: 100%;
  height: 100%;
  margin: 0;
+ font-size: 2em;
+ color: DarkViolet;
+ font-family: "Times new roman", serif;
  line-height: 50px;
  text-align: left;
  -moz-animation: marquee 5s linear infinite alternate;
@@ -109,32 +165,32 @@ marquee {
  transform: translateX(0%);
  }
 }
-/* Links */
 
-a:link {
-  color: Aqua;
+/* Blink, also deprecated but available in some browsers */
+
+/* Blink, CSS3 valid */
+.blink {
+  animation-duration: 1s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(2, start);
+  font-size: 2em;
 }
 
-a:visited {
-  color: Purple;
+@keyframes blink {
+  80% {
+    visibility: hidden;
+  }
 }
 
-a:active {
-  color: Chartreuse;
-}
-
-a:hover {
-  color: Brown;
-}
-/* Forms */
-
+/* =========== FORMS & STUFF =========== */
+/* Input */
 input {
   font-size: 16px;
   font-family: "Comic Sans MS", serif;
   border: 2px solid yellow;
   background-color: black;
   padding: 6px;
-
 }
 
 input, select, textarea{
@@ -143,6 +199,15 @@ input, select, textarea{
 
 textarea:focus, input:focus {
     color: yellow;
+}
+
+/* Buttons */
+button {
+  border: 6px ridge #bbb;
+  font-family: "Comic Sans MS", serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
 }
 
 /* New media elements */
@@ -155,15 +220,4 @@ hr {
   background:url('../img/rainbow.gif');
   height: 1px;
   border: 0;
-}
-
-/* Buttons */
-
-
-button {
-  border: 6px ridge #bbb;
-  font-family: "Comic Sans MS", serif;
-  text-decoration: underline;
-  text-align: center;
-  font-size: 16px;
 }
