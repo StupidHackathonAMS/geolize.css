@@ -115,21 +115,6 @@ a:hover {
   color: Brown;
 }
 
-/* Marquees (officially deprecated, but works in some browsers) */
-marquee {
-  font-size: 2em;
-  color: DarkViolet;
-  line-height: 2em;
-  font-weight: bolder;
-}
-
-/* Marquees (CSS3 valid) */
-.marquee {
- height: 50px;
- overflow: hidden;
- position: relative;
-}
-
 .marquee h3 {
  position: absolute;
  width: 100%;
@@ -216,9 +201,18 @@ button {
 /* New media elements */
 
 /* Tables */
+table, th, td {
+    border: 15px solid goldenrod;
+    border-style: ridge;
+    background-color: peachpuff;
+    color: darkmagenta;
+}
+
+th, td {
+  padding: 10px;
+}
 
 /* Horizontal Rule */
-
 hr {
   background:url('../img/rainbow.gif');
   height: 1px;
