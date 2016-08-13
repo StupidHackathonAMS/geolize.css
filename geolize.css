@@ -51,8 +51,17 @@ mark {
   
 }
 
+
 /* Links */
 
 /* Forms */
 
 /* New media elements */
+
+/* Horizontal Rule */
+
+hr {
+  background:url('../img/rainbow.gif');
+  height: 1px;
+  border: 0;
+}
