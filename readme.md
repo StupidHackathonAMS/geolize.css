@@ -23,4 +23,4 @@ We've included some image presets to make your site look even MORE awesome. If y
 
 Do you have a demo?
 ------
-For sure! Check out https://stupidhackathonams.github.io/geolize.css/.
+We even have a styleguide! Check out https://stupidhackathonams.github.io/geolize.css/.
