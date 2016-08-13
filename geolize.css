@@ -140,9 +140,9 @@ marquee {
 
 /* Marquees (CSS3 valid) */
 .marquee {
- height: 50px;
- overflow: hidden;
- position: relative;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
 }
 
 .marquee h3 {
@@ -229,6 +229,18 @@ button {
 }
 
 /* Tables */
+table, th, td {
+    border: 15px solid goldenrod;
+    border-style: ridge;
+    background-color: peachpuff;
+    color: darkmagenta;
+}
+
+<<<<<<< HEAD
+=======
+th, td {
+  padding: 10px;
+}
 
 /* Horizontal Rule */
 hr {
