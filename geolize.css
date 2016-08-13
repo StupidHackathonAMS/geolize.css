@@ -1,15 +1,27 @@
 /* Document-wide elements */
 html {
-  font-family: "Times New Roman", serif; // Change overall default font
-  line-height: 1.15; // Set line height
+  font-family: "Times New Roman", serif;
+  line-height: 1.15;
 }
 
 body {
-  background-color: pink; // More pink is more better
-  background-image: url(img/background.gif); // More gifs are even more better
+  background-color: pink;
+  background-image: url(img/background.gif);
 }
 
 /* Sections */
+
+/* These elements are new in HTML5. This makes sure they look okay in older browsers */
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+}
 
 /* Headings */
 h1,
@@ -18,9 +30,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", serif;
 }
 
 /* Links */
 
 /* Forms */
+
+/* New media elements */
