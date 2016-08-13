@@ -3,6 +3,7 @@ html {
   font-family: "Times New Roman", serif;
   font-size: 1em;
   line-height: 1;
+  color: red;
 }
 
 body {
@@ -104,7 +105,26 @@ marquee {
 
 /* Forms */
 
+input {
+  font-size: 16px;
+  font-family: "Comic Sans MS", serif;
+  border: 2px solid yellow;
+  background-color: black;
+  padding: 6px;
+
+}
+
+input, select, textarea{
+    color: yellow;
+}
+
+textarea:focus, input:focus {
+    color: yellow;
+}
+
 /* New media elements */
+
+/* Tables */
 
 /* Horizontal Rule */
 
@@ -116,13 +136,6 @@ hr {
 
 /* Buttons */
 
-button {
-  border: 6px ridge #bbb;
-  font-family: "Comic Sans MS", serif;
-  text-decoration: underline;
-  text-align: center;
-  font-size: 16px;
-}
 
 button {
   border: 6px ridge #bbb;
