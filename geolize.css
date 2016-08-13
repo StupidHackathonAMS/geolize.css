@@ -22,3 +22,11 @@ h5,
 h6 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+/* Horizontal Rule */
+
+hr {
+  background:url('../img/rainbow.gif');
+  height: 1px;
+  border: 0;
+}
