@@ -3,12 +3,12 @@ html {
   font-family: "Times New Roman", serif;
   font-size: 1em;
   line-height: 1;
-  color: red;
+  color: black;
 }
 
 body {
   background-color: pink;
-  background-image: url('../img/background.gif');
+  background-image: url('../img/main-background.gif');
 }
 
 /* Sections */
@@ -26,12 +26,19 @@ figure {
 
 blockquote {
   background-color: white;
+  background-image: url('../img/quote-background.jpg');
   width: 50%;
   padding: 10px;
   border: 5px solid red;
 }
 
-code, pre, xmp {
+pre, xmp {
+  background-color: white;
+  background-image: url('../img/code-background.gif');
+  padding: 20px;
+}
+
+code {
   background-color: white;
 }
 
@@ -58,8 +65,9 @@ i, em {
 /* Marquees (officially deprecated, but works in some browsers) */
 marquee {
   font-size: 2em;
-  color: green;
+  color: DarkViolet;
   line-height: 2em;
+  font-weight: bolder;
 }
 
 /* Marquees (CSS3 valid) */
@@ -103,6 +111,21 @@ marquee {
 }
 /* Links */
 
+a:link {
+  color: Aqua;
+}
+
+a:visited {
+  color: Purple;
+}
+
+a:active {
+  color: Chartreuse;
+}
+
+a:hover {
+  color: Brown;
+}
 /* Forms */
 
 input {
