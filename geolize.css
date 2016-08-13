@@ -115,6 +115,21 @@ a:hover {
   color: Brown;
 }
 
+/* Marquees (officially deprecated, but works in some browsers) */
+marquee {
+  font-size: 2em;
+  color: DarkViolet;
+  line-height: 2em;
+  font-weight: bolder;
+}
+
+/* Marquees (CSS3 valid) */
+.marquee {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
 .marquee h3 {
  position: absolute;
  width: 100%;
