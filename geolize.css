@@ -167,6 +167,9 @@ marquee {
 }
 
 /* Blink, also deprecated but available in some browsers */
+blink {
+  color: LightGoldenRodYellow;
+}
 
 /* Blink, CSS3 valid */
 .blink {
