@@ -14,8 +14,6 @@ With Bower:
 
 `bower install geolize.css`
 
-This will also include all images and a test.html file.
-
 Don't wanna use a package manager? Download geolize.css and include it in your HTML like this:
 
 `<link rel="stylesheet" type="text/css" href="geolize.css">`
